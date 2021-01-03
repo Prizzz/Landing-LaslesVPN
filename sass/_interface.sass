@@ -1,0 +1,57 @@
+*
+    box-sizing: border-box 
+    margin: 0
+    transition: 0.2s
+
+body
+    font-size: 16px
+    +reg
+
+img
+    max-width: 100%
+    
+.container
+    width: 1200px
+    margin: auto
+
+.button
+    color: #ffffff
+    background-color: #F53838
+    border: 2px solid transparent
+    border-radius: 10px
+    +bold
+    box-shadow: 0 10px 24px rgba(245, 56, 56, 0.5)
+    cursor: pointer
+    outline: none
+    &:hover
+        color: #F53838
+        background-color: transparent
+        border: 2px solid #F53838
+
+.border-button
+    +bold
+    background: none
+    outline: none
+    cursor: pointer
+    border: 2px solid #F53855
+    border-radius: 50px
+    color: #F53855
+    padding: 13px 45px
+    &:hover
+        background: #F53855
+        color: #fff
+        box-shadow: 0 10px 24px rgba(245, 56, 56, 0.5)
+
+.subtitle
+    +reg
+    line-height: 30px
+    max-width: 555px
+    color: #4F5665
+.title
+    +med
+    line-height: 50px
+    font-size: 35px
+
+.med
+    +med
+        

@@ -1,0 +1,27 @@
+.counters
+    display: flex
+    align-items: center
+    justify-content: space-around
+    max-width: 1140px
+    &__item
+        display: flex
+        justify-content: space-between
+        padding: 60px 0 60spx 0
+        &::after
+            content: ''
+            width: 2px
+            background-color: #EEEFF2
+            border-radius: 10px
+            margin-left: 120px
+        &:last-child::after
+            content: none
+    &__text
+        display: flex
+        flex-direction: column
+        justify-content: center
+        margin-left: 40px
+    &__count
+        +bold
+        margin-bottom: 5px
+    &__description
+        color: #4F5665
